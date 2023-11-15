@@ -7,13 +7,15 @@ import { IonicModule } from '@ionic/angular';
 import { ContrasegnaolvidadaPageRoutingModule } from './contrasegnaolvidada-routing.module';
 
 import { ContrasegnaolvidadaPage } from './contrasegnaolvidada.page';
+import { SharedModule } from '../shared/shared.module';
 
 @NgModule({
   imports: [
     CommonModule,
     FormsModule,
     IonicModule,
-    ContrasegnaolvidadaPageRoutingModule
+    ContrasegnaolvidadaPageRoutingModule,
+    SharedModule,
   ],
   declarations: [ContrasegnaolvidadaPage]
 })

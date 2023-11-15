@@ -32,10 +32,6 @@ const routes: Routes = [
     loadChildren: () => import('./feed/feed.module').then( m => m.FeedPageModule)
   },
   {
-    path: 'reparaciones',
-    loadChildren: () => import('./reparaciones/reparaciones.module').then( m => m.ReparacionesPageModule)
-  },
-  {
     path: 'mantenimientos',
     loadChildren: () => import('./mantenimientos/mantenimientos.module').then( m => m.MantenimientosPageModule)
   },

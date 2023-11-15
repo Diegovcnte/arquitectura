@@ -1,26 +1,17 @@
 <ion-header>
-  <ion-toolbar class="mi-toolbar">
-   <ion-buttons slot="secondary">
- 
-     
-     
-   </ion-buttons>         
-  </ion-toolbar>
+  
+  <app-toolbar></app-toolbar>
  
  </ion-header>
  
  
- <ion-content class="background ion-padding ">
+ <ion-content >
  
-  <div class="ion-text-center">
-    <br>
-    <br>
-    <h1 style="font-size: 37px; color: #5E17EB;">Inicio de <strong>sesión</strong></h1>
-  </div>
+  <app-header title="Inicio de sesión"></app-header>
 
   
 
-  <div class="logeando ion-text-center">
+  <!-- <div class="logeando ion-text-center">
     
     <p class="p1">CORREO</p>
     <ion-input  label-placement="floating" fill="outline" placeholder="Ingrese su correo"></ion-input>
@@ -38,7 +29,7 @@
       <div class="crear-cuenta">
         <a [routerLink]="['/crearcuenta']">Crear cuenta</a>
       </div>
-    </div>
+    </div> -->
 
       
 
@@ -46,10 +37,8 @@
  
  
  
-  <div class="circle"></div>
-
- 
-  <div class="patron"></div>
+    <app-circle></app-circle>
+    <app-patron></app-patron>
 
  
  </ion-content>

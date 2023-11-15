@@ -1,13 +1,10 @@
 
-h1.tituloh1{
+h1.tituloh1 {
   font-size: 250%;
   color: #5E17EB;
-  text-align: center;
-  line-height: 4.5;
-  position: fixed;
-  width: 100%;
-  top: 4px; /* Ajusta según sea necesario */
+  transform: translateY(55px); /* Ajusta según sea necesario */
 }
+
 
 
 
