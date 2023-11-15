@@ -47,6 +47,8 @@ const routes: Routes = [
     path: 'otros-servicios',
     loadChildren: () => import('./otros-servicios/otros-servicios.module').then( m => m.OtrosServiciosPageModule)
   },
+
+
 ];
 
 @NgModule({

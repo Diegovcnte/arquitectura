@@ -1,0 +1,16 @@
+ion-toolbar {
+    --background: #dedede; 
+  }
+
+  
+.mi-toolbar {
+    height: 6.8vh; 
+    width: 77vw; 
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    top: -24px;
+}
